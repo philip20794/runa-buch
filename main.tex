@@ -1,0 +1,27 @@
+\documentclass[11pt,a4paper,oneside]{scrreprt}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,style=authoryear,sorting=nyt]{biblatex}
+\addbibresource{literatur.bib}
+
+\title{Mein Buch}
+\subtitle{Ein Beispiel für den automatischen PDF-Build}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+
+\input{kapitel/einfuehrung}
+
+\printbibliography[heading=bibintoc,title={Literatur}]
+\end{document}

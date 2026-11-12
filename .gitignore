@@ -1,0 +1,24 @@
+# LaTeX/latexmk
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.xdv
+*.pdf
+!beispiele/*.pdf
+
+# Generated site and dependencies
+site/
+node_modules/
+.DS_Store

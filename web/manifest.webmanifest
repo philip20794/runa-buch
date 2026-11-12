@@ -1,0 +1,13 @@
+{
+  "name": "Buch – PDF-Vorschau",
+  "short_name": "Buch",
+  "description": "Immer die aktuelle PDF des Buchprojekts lesen.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#d8dbe1",
+  "theme_color": "#111827",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

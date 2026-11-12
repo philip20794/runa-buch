@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Aktuelle PDF des LaTeX-Buchprojekts mit automatischer Aktualisierung">
+  <title>Buch – PDF-Vorschau</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="toolbar">
+      <div class="heading">
+        <strong>Buch</strong>
+        <span id="status" class="status" role="status" aria-live="polite" data-state="loading">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="status-text">Wird geladen</span>
+        </span>
+      </div>
+      <div class="controls" aria-label="PDF-Steuerung">
+        <span id="page-counter" class="page-counter">– / –</span>
+        <button type="button" id="zoom-out" title="Verkleinern" aria-label="PDF verkleinern">−</button>
+        <span id="zoom-label" class="zoom-label" aria-live="off">100 %</span>
+        <button type="button" id="zoom-in" title="Vergrößern" aria-label="PDF vergrößern">+</button>
+        <button type="button" id="zoom-reset" title="An Breite anpassen" aria-label="An Seitenbreite anpassen">↔</button>
+        <button type="button" id="refresh" title="Auf neue Version prüfen" aria-label="Jetzt auf neue Version prüfen">⟳</button>
+        <a id="download" class="control-link" href="./dokument.pdf" title="Aktuelle PDF öffnen oder herunterladen" aria-label="PDF öffnen oder herunterladen">PDF</a>
+      </div>
+    </header>
+    <section id="reader" class="reader" aria-label="PDF-Dokument" tabindex="0">
+      <div id="empty" class="empty">Die aktuelle PDF wird geladen …</div>
+      <div id="pages" class="pages-host"></div>
+    </section>
+  </main>
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>

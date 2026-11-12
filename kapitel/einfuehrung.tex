@@ -1,0 +1,51 @@
+\chapter{Einführung}
+\label{chap:einfuehrung}
+
+Dies ist das erste Kapitel des Buches. Die Dateien sind so organisiert, dass jedes
+Kapitel einzeln unter \texttt{kapitel/} bearbeitet werden kann. Ein Push auf den
+Branch \texttt{main} stößt den automatischen PDF-Build an.
+
+\section{Schreiben mit LaTeX}
+
+LaTeX übernimmt die Formatierung von Überschriften, Tabellen und Literaturangaben.
+Eine Einführung in das Satzsystem bietet \textcite{lamport1994}.
+Innerhalb des Dokuments lassen sich Abschnitte wie
+\autoref{sec:beispiel} referenzieren.
+
+\section{Tabelle und Verweise}
+\label{sec:beispiel}
+
+Die folgende Tabelle veranschaulicht den Grundaufbau.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Beispielhafte Kapitelstruktur}
+  \label{tab:kapitel}
+  \begin{tabular}{ll}
+    \toprule
+    Datei & Aufgabe \\
+    \midrule
+    \texttt{main.tex} & Hauptdokument \\
+    \texttt{kapitel/einfuehrung.tex} & Erstes Kapitel \\
+    \texttt{literatur.bib} & Literaturangaben \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Die Tabelle \autoref{tab:kapitel} kann mit ihrer Referenz angesprochen werden.
+
+\clearpage
+\section{Eine weitere Seite}
+
+Diese zweite Kapitelseite dient als Test für das Scrollen in der mobilen
+PDF-Vorschau. Auch umfangreichere Dokumente werden im Browser nur bei Bedarf
+seitenweise gerendert.
+
+Ein Bild lässt sich später mit \verb|\includegraphics| einfügen. Dabei sollte
+die Grafik in einem Unterordner wie \texttt{bilder/} liegen.
+
+\subsection{Änderungen veröffentlichen}
+
+Nach einem erfolgreichen Build legt GitHub Actions die neue PDF gemeinsam
+mit einer Versionsdatei auf GitHub Pages ab. Die geöffnete Vorschau überprüft
+diese Datei regelmäßig und lädt das neue Dokument anschließend nach.
