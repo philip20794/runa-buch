@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,oneside]{scrreprt}
+\documentclass[11pt,a5paper,twoside,open=right,BCOR=6mm,DIV=10]{scrbook}
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -17,11 +17,13 @@
 \date{\today}
 
 \begin{document}
+\frontmatter
 \maketitle
 \tableofcontents
-\clearpage
 
+\mainmatter
 \input{kapitel/einfuehrung}
 
+\backmatter
 \printbibliography[heading=bibintoc,title={Literatur}]
 \end{document}
