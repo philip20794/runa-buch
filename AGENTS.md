@@ -53,10 +53,20 @@ Jeden bearbeiteten Buchtext vor dem Commit sorgfältig redigieren:
 - Keine Markdown-Syntax in LaTeX-Dateien verwenden. Kein zusätzlicher Meta-Kommentar, keine Notizen über den Überarbeitungsprozess im Romantext.
 - Bei größeren Überarbeitungen auf Anschlussfehler zur vorhergehenden und folgenden Szene achten.
 
-## 5. Vor dem Abschluss
+## 5. Platzhalter für noch fehlende Passagen
 
-1. Nur die tatsächlich angeforderten bestehenden Buchtextstellen verändert?
-2. Technische Dateien und Buchstruktur vollständig unverändert?
+Eine Folge aus **mehr als drei Fragezeichen direkt hintereinander** (`????`, `?????` usw.) ist ein bewusst gesetzter Platzhalter für eine später einzufügende Buchpassage.
+
+- Die Fragezeichenfolge **genau so stehen lassen**, einschließlich ihrer Länge und Position im Text. Den Platzhalter auch bei sprachlicher Überarbeitung in das Buch übernehmen.
+- Weder die fehlende Passage eigenständig erfinden noch die Lücke durch einen selbst geschriebenen Übergang, eine Zusammenfassung oder andere Zeichen ersetzen.
+- Den Text vor und nach dem Platzhalter nicht so umschreiben, dass die bewusst offene Verbindung verdeckt oder der Platzhalter überflüssig wird.
+- Erst wenn der Auftraggeber ausdrücklich vorgibt, was an dieser Stelle ergänzt werden soll, den betreffenden Platzhalter ersetzen. Andere Platzhalter bleiben unberührt.
+- Ein, zwei oder drei aufeinanderfolgende Fragezeichen sind **nicht automatisch Platzhalter** und werden als gewöhnliche Satzzeichen behandelt.
+
+## 6. Vor dem Abschluss
+
+1. Nur die ausdrücklich beauftragten Dateien und Textstellen verändert?
+2. Technische Dateien und Buchstruktur unverändert, soweit der Auftraggeber keine konkrete Ausnahme ausdrücklich beauftragt hat?
 3. Sprache, Dark-Romance-Ton, Perspektive und Handlung konsistent?
 4. Rechtschreibung, Grammatik, Interpunktion, Absätze und LaTeX-Syntax geprüft?
 5. Änderungen direkt auf `main` gepusht und Build-Status, soweit zugänglich, kontrolliert?
