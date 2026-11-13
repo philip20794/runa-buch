@@ -2,6 +2,10 @@
 
 Dieses Repository enthält ein LaTeX-Dokument, das bei jedem erfolgreichen Push auf `main` automatisch in eine PDF umgewandelt und über GitHub Pages veröffentlicht wird.
 
+## Regeln für KI-Schreibassistenten
+
+**Vor jeder Bearbeitung die [AGENTS.md](AGENTS.md) lesen und befolgen.** Es darf nur der literarische Inhalt vorhandener Kapitel bearbeitet werden; die technische Struktur bleibt unverändert. Alle Buchtextänderungen erfolgen direkt auf `main`, damit der automatische PDF-Build startet. Rechtschreibung, Grammatik und Formatierung sind sorgfältig zu korrigieren und die Texte im Stil eines Dark-Romance-Romans zu formulieren, ohne eigenmächtig Handlung oder Figuren zu verändern.
+
 ## Vorschau
 
 Nach dem Aktivieren von **Settings → Pages → Build and deployment → Source: GitHub Actions** ist die Ansicht unter
