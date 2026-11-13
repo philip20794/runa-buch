@@ -10,7 +10,7 @@ Das bestehende Repository ist technisch eingerichtet. **Es darf ausschließlich 
 - Keine Änderungen an GitHub Actions, GitHub Pages, Build-Prozess, Reader, Tests, Abhängigkeiten oder Deployment.
 - Keine Änderungen an `main.tex`, `literatur.bib`, `.gitignore`, `README.md`, `AGENTS.md` oder Dateien unter `.github/`, `web/` und `tests/`.
 - Bearbeite ausschließlich den erzählerischen Text in bereits vorhandenen Dateien unter `kapitel/` und nur soweit es der konkrete Schreibauftrag erfordert.
-- LaTeX-Grundgerüst, Kapitel- und Abschnittsgliederung, Überschriftenhierarchie, Labels, Referenzen und vorhandene Formatierung beibehalten. Keine Umstrukturierung des Buches.
+- LaTeX-Grundgerüst, Kapitel- und Abschnittsgliederung, Überschriftenhierarchie, Labels, Referenzen und technisches Satzlayout beibehalten. **Absätze und Zeilenumbrüche im erzählerischen Text dürfen und sollen redaktionell neu gesetzt werden**, wenn die Vorlage nur Rohmaterial oder uneinheitlich formatiert ist. Keine Umstrukturierung des Buches.
 - Vorhandene LaTeX-Befehle, Verweise und Sonderzeichen korrekt behandeln; keine Syntaxfehler erzeugen.
 - Wenn eine Aufgabe eine strukturelle oder technische Änderung erfordern würde, **nicht eigenmächtig ändern**. Zuerst ausdrücklich beim Auftraggeber nachfragen.
 
@@ -47,11 +47,21 @@ Jeden bearbeiteten Buchtext vor dem Commit sorgfältig redigieren:
 - Deutsche Rechtschreibung, Grammatik, Zeichensetzung und Satzbau korrigieren.
 - Holprige, unklare oder unbeabsichtigt wiederholende Formulierungen verbessern.
 - Wortwahl und Lesefluss für Dark Romance anpassen, ohne Aussage und persönliche Tonalität der Szene zu verlieren.
-- Absätze nach Sinn und Szenenrhythmus setzen; Dialoge sauber und einheitlich formatieren.
+- Absätze nach Sinn und Szenenrhythmus setzen, zusammengehörende Aussagen in lesbare Fließtextabsätze überführen; Dialoge sauber und einheitlich formatieren.
 - Bestehende direkte Rede, Kursivierungen und Hervorhebungen konsistent behandeln.
 - Typografische und LaTeX-Konventionen des vorhandenen Projekts einhalten. Sonderzeichen wie `%`, `&`, `#` und `_` in Fließtext korrekt für LaTeX schreiben.
 - Keine Markdown-Syntax in LaTeX-Dateien verwenden. Kein zusätzlicher Meta-Kommentar, keine Notizen über den Überarbeitungsprozess im Romantext.
 - Bei größeren Überarbeitungen auf Anschlussfehler zur vorhergehenden und folgenden Szene achten.
+
+### Rohnotizen in druckreifen Romantext überführen
+
+- Vom Auftraggeber eingereichte Texte können **unbearbeitete Notizen, Stichpunkte, einzelne Wörter, Satzfragmente sowie zufällige Leerzeilen und Zeilenumbrüche** enthalten. Ihre ursprüngliche Struktur ist keine verbindliche Buchformatierung.
+- Solche Elemente anhand ihres Zusammenhangs zu vollständigen, natürlich lesbaren Sätzen und kohärenten Absätzen ausarbeiten. Inhaltlich zusammengehörende Einzeiler zu Fließtext verbinden und holprige Übergänge sprachlich glätten.
+- **Nicht jeden Satz, jedes Wort oder jeden kurzen Gedanken als eigenen Absatz setzen.** Kurze Einzelabsätze nur gezielt verwenden, wenn sie erzählerisch tatsächlich Spannung, Rhythmus oder eine bewusste Zäsur erzeugen; nicht als durchgängiges Stilmittel.
+- Leerzeilen in der Vorlage nicht automatisch als Szenenwechsel behandeln. Einen deutlichen Abschnittswechsel nur setzen, wenn Handlung, Zeit, Ort oder Erzählfluss ihn begründen.
+- Notizen nicht wortwörtlich oder als lose Stichworte in den Roman kopieren. Ihre belegbare Bedeutung und konkrete Angaben erhalten, aber sprachlich so einarbeiten, dass der Abschnitt wie fertig redigierte Dark-Romance-Prosa wirkt.
+- **Keine Handlung, Ereignisse, Dialoge, Gefühle oder Fakten hinzuerfinden**, nur um aus Notizen eine Szene zu machen. Bei einer inhaltlich nicht eindeutig deutbaren Notiz außerhalb des Manuskripts Rückfrage stellen, statt zu spekulieren.
+- **Ausnahme:** Fragezeichen-Platzhalter nach Abschnitt 5 unverändert übernehmen. Diese markieren absichtlich offene Passagen und dürfen nicht ausgearbeitet, geglättet oder entfernt werden.
 
 ## 5. Platzhalter für noch fehlende Passagen
 
